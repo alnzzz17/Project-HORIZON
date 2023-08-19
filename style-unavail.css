@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url("body-bg.jpg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#image-1, #image-2 {
+    width: 20vw;
+}
+
+h1 {
+    font-family: 'REM', sans-serif;
+    font-size: 3vw;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2vw;
+}
+
+p a {
+    color: black;
+    font-weight: bold;
+}
+
+p a:hover {
+    color: rgb(38, 0, 255);
+    font-weight: bold;
+}
+
+.interactive {
+    position: relative;
+    display: inline-block;
+}
+
+.interactive #image-2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.interactive:hover #image-2 {
+    display: inline;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        color: black;
+        font-family: 'REM', sans-serif;
+        font-size: 5vw;
+    }
+    
+    p {
+        font-family: 'Kanit', sans-serif;
+        font-size: 3.5vw;
+    }
+    
+    p a {
+        color: black;
+        font-weight: bold;
+    }
+
+    #image-1, #image-2 {
+        width: 50vw;
+    }
+
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('horizon.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 7vw;
+}
+
+h2 {
+    font-family: 'Figtree', sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+
+
+.title a {
+    display: block;
+    font-size:1.5vw;
+    font-weight: bold;
+    width: 15vw;
+    height: auto;
+    padding: 2vw;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    font-family: 'Figtree', sans-serif;
+    background-color: rgb(57, 0, 170);
+}
+
+.title a:hover {
+    background-color: rgba(32, 1, 93);
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-family: 'Fjalla One', sans-serif;
+        letter-spacing: 2px;
+        color: white;
+        font-size: 15vw;
+    }
+    
+    h2 {
+        font-family: 'Figtree', sans-serif;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    
+    .title a {
+        display: block;
+        font-size: 4vw;
+        width: 40vw;
+        height: auto;
+        padding: 2vw;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        background-color: rgb(57, 0, 170);
+    }
+  } 
